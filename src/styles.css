@@ -1,0 +1,72 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .heading {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  .main-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+  }
+  .left-container{
+ flex: 1;
+  }
+  .stage{
+    width: 100%;
+    height: 800px;
+    background-color: beige;
+  }
+
+  .resizable-box {
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 5px;
+  }
+  
+  .handle {
+    background-color: #2196f3;
+    color: white;
+    padding: 5px;
+    cursor: move;
+  }
+  .box {
+    position: absolute;
+    cursor: move;
+    color: black;
+    max-width: 215px;
+    border-radius: 5px;
+    padding: 1em;
+    margin: auto;
+    user-select: none;
+  }
+  .top-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .top-container{
+    width: 80%;
+    padding: 20px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+  
+    
+  }
+  .font-style{
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+    color: white;
+  }
